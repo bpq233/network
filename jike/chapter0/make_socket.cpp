@@ -28,7 +28,8 @@ int make_socket(uint16_t port) {
     return sock;
 }
 
-int main(int argc, char **argv) {
+int main(int argc, char *argv[]) {
     int sockfd = make_socket(12345);
+    printf("hello world!\n");
     return 0;
 }
